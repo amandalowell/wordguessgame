@@ -1,4 +1,3 @@
-
 var quizWords = [ "revelations", "kino", "perkaholic", "crawler", "deadshot", "jug", "boss", "revive"];
 
 var lettersUsed = [];
@@ -100,6 +99,8 @@ document.onkeypress = (event) => {
         }
     }
     
+    
+    
     function updateWord(letterGuess) {
         // update the guessedWord
         // need to make word an array
@@ -134,3 +135,4 @@ document.onkeypress = (event) => {
             }
         }
     }
+
