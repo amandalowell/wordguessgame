@@ -13,6 +13,7 @@ h1 {
 h2 {
     text-align: center;
     padding :0px;
+    font-size: 20px;
 
 }
 
@@ -23,7 +24,7 @@ h2 {
     border: 15px solid black;
     padding: 50px;
     align-content: center;
-    height: 200px;
+    height: 350px;
     margin-left: 130px;
 }
 
@@ -37,4 +38,13 @@ h2 {
     display: block;
     width: 70%;
     
+}
+
+#directions {
+    color:white;
+    margin-top: 0px;
+}
+
+#wins {
+    color: green;
 }
